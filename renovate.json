@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "group:all"
+  ],
+  "labels": [
+    "renovate"
+  ],
+  "schedule": "before 3am on Monday"
+}

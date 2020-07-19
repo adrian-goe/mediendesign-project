@@ -1,0 +1,146 @@
+@import '../../../colors';
+
+button {
+    border-radius: 15px;
+    border: 0;
+    box-sizing: border-box;
+    color: $white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    padding: 13px 25px;
+    transition: all .25s ease-in-out;
+
+    &:hover {
+        transform: translateY(-5px)
+    }
+
+    &:disabled {
+        pointer-events: none;
+        opacity: 0.35;
+
+        &:hover {
+            transform: translateY(0)
+        }
+    }
+}
+
+.green {
+    //color: $green;
+    background: $green;
+    background: rgba($green, 1);
+    box-shadow: 0 0 0 0 rgba($green, .6);
+
+    &:hover {
+        box-shadow: 0 10px 20px -10px rgba($green, .6);
+    }
+
+    &:disabled {
+        &:hover {
+            box-shadow: 0 0 0 0 rgba($green, .6);
+        }
+    }
+
+}
+
+.blue {
+    background: $blue;
+    background: rgba($blue, 1);
+    box-shadow: 0 0 0 0 rgba($blue, .6);
+
+    &:hover {
+        box-shadow: 0 10px 20px -10px rgba($blue, .6);
+    }
+
+    &:disabled {
+        &:hover {
+            box-shadow: 0 0 0 0 rgba($blue, .6);
+        }
+    }
+}
+
+.black {
+    background: $black;
+    background: rgba($black, 1);
+    box-shadow: 0 0 0 0 rgba($black, .6);
+
+    &:hover {
+        box-shadow: 0 10px 20px -10px rgba($black, .6);
+    }
+
+    &:disabled {
+        &:hover {
+            box-shadow: 0 0 0 0 rgba($black, .6);
+        }
+    }
+}
+
+.white {
+    background: $white;
+    background: rgba($white, 1);
+    box-shadow: 0 0 0 0 rgba($white, .6);
+    color: $black;
+
+    &:hover {
+        box-shadow: 0 10px 20px -10px rgba($white, .6);
+    }
+
+    &:disabled {
+        &:hover {
+            box-shadow: 0 0 0 0 rgba($white, .6);
+        }
+    }
+}
+
+.red {
+    background: $red;
+    background: rgba($red, 1);
+    box-shadow: 0 0 0 0 rgba($red, .6);
+
+    &:hover {
+        box-shadow: 0 10px 20px -10px rgba($red, .6);
+    }
+
+    &:disabled {
+        &:hover {
+            box-shadow: 0 0 0 0 rgba($red, .6);
+        }
+    }
+}
+
+.light-gray {
+    background: $light-gray;
+    background: rgba($light-gray, 1);
+    box-shadow: 0 0 0 0 rgba($light-gray, .6);
+    color: $black;
+
+    &:hover {
+        box-shadow: 0 10px 20px -10px rgba($light-gray, .6);
+    }
+
+    &:disabled {
+        &:hover {
+            box-shadow: 0 0 0 0 rgba($light-gray, .6);
+        }
+    }
+}
+
+.yellow {
+    background: $yellow;
+    background: rgba($yellow, 1);
+    box-shadow: 0 0 0 0 rgba($yellow, .6);
+    //color: $black;
+    font-weight: bolder;
+
+    &:hover {
+        box-shadow: 0 10px 20px -10px rgba($yellow, .6);
+    }
+
+    &:disabled {
+        &:hover {
+            box-shadow: 0 0 0 0 rgba($yellow, .6);
+        }
+    }
+}

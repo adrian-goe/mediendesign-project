@@ -1,0 +1,18 @@
+<div [ngClass]="{'section-container':true,
+'section-image-left':position==='left',
+'section-image-right':position==='right'
+}">
+  <img class="section-image"
+       src="{{imageUrl}}"
+       alt="">
+  <div class="section-content">
+    <ng-content></ng-content>
+    <!--<h2 class="section-heading">
+      Do you need support for applications or Responsive Pages?
+    </h2>
+    <p class="section-text">Vuesax components have responsive support and adapt to each type of size, apart from that you can easily use the
+      grid
+      components to generate visual changes based on screen size either a phone, tablet or desktop.</p>
+    <app-button [isDisabled]="false" [color]="Colors.RED">Ich liebe Buttons</app-button>-->
+  </div>
+</div>

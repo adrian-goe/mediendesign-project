@@ -1,0 +1,29 @@
+<app-navbar class="navbar"></app-navbar>
+<app-header-image class="hero-image" [imageID]="'photo-1504888527749-e68244b4d3d7'"></app-header-image>
+<div class="content">
+  <app-section class="flexitem" [imageUrl]="'assets/graphics/hang-out.svg'">
+    <h2 class="section-heading">
+      Hanging out with friends
+    </h2>
+    <p class="section-text">Vuesax components have responsive support and adapt to each type of size, apart from that you can easily use the
+      grid
+      components to generate visual changes based on screen size either a phone, tablet or desktop.</p>
+    <app-button [isDisabled]="false" [color]="Colors.YELLOW">Finde Café</app-button>
+  </app-section>
+  <app-section class="flexitem" [position]="'right'" [imageUrl]="'assets/graphics/remote-work.svg'">
+    <h2 class="section-heading">
+      Relaxing while working
+    </h2>
+    <p class="section-text">Vuesax components have responsive support and adapt to each type of size, apart from that you can easily use the
+      grid components to generate visual changes based on screen size either a phone, tablet or desktop.</p>
+    <app-button [isDisabled]="false" [color]="Colors.YELLOW">Order Coffee</app-button>
+  </app-section>
+  <app-section class="flexitem" [position]="'left'" [imageUrl]="'assets/graphics/coffee-break.svg'">
+    <h2 class="section-heading">
+      Breaks Favourite
+    </h2>
+    <p class="section-text">Vuesax components have responsive support and adapt to each type of size, apart from that you can easily use the
+      grid components to generate visual changes based on screen size either a phone, tablet or desktop.</p>
+    <app-button [isDisabled]="false" [color]="Colors.YELLOW">To go</app-button>
+  </app-section>
+</div>

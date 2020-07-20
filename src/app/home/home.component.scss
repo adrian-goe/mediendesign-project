@@ -13,6 +13,10 @@
     padding: 0;
     width: 100vw;
 
+    @media (min-width: 118.75rem) {
+        grid-template-columns: 1fr 98.75rem 1fr;
+    }
+
     @media (max-width: 68.75rem) {
         grid-template-columns: 1rem 1fr 1rem;
     }

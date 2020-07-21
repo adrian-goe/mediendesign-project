@@ -5,25 +5,21 @@
     <h2 class="section-heading">
       Hanging out with friends
     </h2>
-    <p class="section-text">Vuesax components have responsive support and adapt to each type of size, apart from that you can easily use the
-      grid
-      components to generate visual changes based on screen size either a phone, tablet or desktop.</p>
-    <app-button [isDisabled]="false" [color]="Colors.YELLOW">Finde Café</app-button>
+    <p class="section-text">Meet friends and enjoy a hot drink. There is not much nicer than having coffee together.</p>
+    <app-button [isDisabled]="false" [color]="Colors.YELLOW" routerLink="/cofe-shop">Finde Café</app-button>
   </app-section>
   <app-section class="flexitem" [position]="'right'" [imageUrl]="'assets/graphics/remote-work.svg'">
     <h2 class="section-heading">
       Relaxing while working
     </h2>
-    <p class="section-text">Vuesax components have responsive support and adapt to each type of size, apart from that you can easily use the
-      grid components to generate visual changes based on screen size either a phone, tablet or desktop.</p>
-    <app-button [isDisabled]="false" [color]="Colors.YELLOW">Order Coffee</app-button>
+    <p class="section-text">Don't you get ahead at work? Take a coffee break, clear your head, get a head start.</p>
+    <app-button [isDisabled]="false" [color]="Colors.YELLOW" routerLink="/coffee-break">Order Coffee</app-button>
   </app-section>
-  <app-section class="flexitem" [position]="'left'" [imageUrl]="'assets/graphics/coffee-break.svg'">
+  <app-section class="flexitem" [position]="'left'" [imageUrl]="'assets/graphics/wake-up.svg'">
     <h2 class="section-heading">
-      Breaks Favourite
+      Wake up
     </h2>
-    <p class="section-text">Vuesax components have responsive support and adapt to each type of size, apart from that you can easily use the
-      grid components to generate visual changes based on screen size either a phone, tablet or desktop.</p>
-    <app-button [isDisabled]="false" [color]="Colors.YELLOW">To go</app-button>
+    <p class="section-text">The first sip of coffee a day makes the day directly better.</p>
+    <app-button [isDisabled]="false" [color]="Colors.YELLOW" routerLink="/wake-up">Wake Up</app-button>
   </app-section>
 </div>

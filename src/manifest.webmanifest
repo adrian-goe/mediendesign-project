@@ -1,6 +1,6 @@
 {
-  "name": "mediendesign-project",
-  "short_name": "Mediendesign Coffee",
+  "name": "mediendesign-project-coffee",
+  "short_name": "MD Coffee",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "standalone",

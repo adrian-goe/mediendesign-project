@@ -24,6 +24,7 @@
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
+              "src/.well-known",
               "src/favicon.ico",
               "src/assets",
               "src/manifest.json",

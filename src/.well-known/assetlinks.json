@@ -1,0 +1,5 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target" : { "namespace": "android_app", "package_name": "com.yimeko.twa",
+                   "sha256_cert_fingerprints": ["5B:48:87:22:43:AF:37:D2:3B:43:84:9A:F9:31:7F:56:A3:58:D5:69:C4:B2:3A:F5:42:4A:4D:C7:A5:6B:86:0A"] }
+    }]

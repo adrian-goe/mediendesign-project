@@ -26,14 +26,18 @@
         flex-direction: row;
         align-items: center;
 
+
         .navigation-item {
+            &.mobile-hide {
+                @media (max-width: 50rem) {
+                    display: none;
+                }
+            }
+
             padding: 0 1rem;
             text-decoration: none;
             color: inherit;
             //border-right: 0.0625rem solid $black;
-            @media (max-width: 50rem) {
-                display: none;
-            }
 
             &:first-child {
                 padding-left: 0;

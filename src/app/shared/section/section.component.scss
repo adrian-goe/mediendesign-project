@@ -6,14 +6,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 2rem;
     @media (max-width: 45rem) {
         flex-direction: column !important;
-    justify-content: space-around;
+        justify-content: space-around;
+        margin-bottom: 0;
+    }
+    @media (max-width: 68rem) {
+        flex-direction: column !important;
+        justify-content: space-around;
+        margin-bottom: 1rem;
     }
 
 
     .section-image {
-        width: 38%;
+        width: 46%;
         border-radius: 24px;
         @media (max-width: 45rem) {
             flex-direction: column;
@@ -22,7 +29,7 @@
     }
 
     .section-content {
-        width: 58%;
+        width: 46%;
         @media (max-width: 45rem) {
             flex-direction: column;
             width: 90%;

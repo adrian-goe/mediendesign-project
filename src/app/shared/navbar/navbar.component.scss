@@ -13,8 +13,12 @@
         padding: 0 2rem;
     }
 
+
     img {
         height: 5rem;
+        @media (max-width: 50rem) {
+            height: 3.5rem;
+        }
     }
 
     .naviagtion-container {
@@ -27,6 +31,9 @@
             text-decoration: none;
             color: inherit;
             //border-right: 0.0625rem solid $black;
+            @media (max-width: 50rem) {
+                display: none;
+            }
 
             &:first-child {
                 padding-left: 0;

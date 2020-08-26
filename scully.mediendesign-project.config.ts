@@ -6,7 +6,7 @@ const postRenderers = [MinifyHtml];
 export const config: ScullyConfig = {
   projectRoot: "./src",
   projectName: "mediendesign-project",
-  defaultPostRenderers: postRenderers,
+    defaultPostRenderers: postRenderers,
   outDir: './dist/static',
   routes: {
   }

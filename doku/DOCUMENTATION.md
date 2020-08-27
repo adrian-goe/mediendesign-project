@@ -1,5 +1,19 @@
 # Mediendesign - Responsive Landingpage
 
+## Links
+
+- [Github](https://github.com/adrian-goe/mediendeisgn-project) 
+- [Dokumentation online](https://github.com/adrian-goe/mediendeisgn-project/blob/master/doku/DOCUMENTATION.md) 
+- [Dokumentation PDF](https://github.com/adrian-goe/mediendeisgn-project/blob/master/doku/DOCUMENTATION.pdf) 
+- [Webseite](https://yimeko.com/home)
+
+## Person
+
+- Adrian Görisch
+- Matrikelnummer: 1476402
+- Email: adrian.goerisch@stud.hs-hannover.de
+
+
 ## Kaffee
 
 Im Rahmen des Faches Mediendesign haben wir die Aufgabe bekommen eine responsive Landingpage zu entwickeln. Ich habe mich dazu entscheiden, eine Seite über Kaffee zu entwicklen.
@@ -30,4 +44,8 @@ Besonders menge der übertragen Daten bis zum initialen Renden (Ohne Bilder) unt
 |---|---|
 |179,19KB|20.81KB|
 
-Der unterschied mag hier nur sehr gering sein. Wird das Projekt aber größer und mit mehr untersieten, wird auch das Angular-Bundle größer. Erst wenn das vollständig übertragen ist, kann die Seite gerendert werden.
+Der Unterschied mag hier nur sehr gering sein. Wird das Projekt aber größer und mit mehr untersieten, wird auch das Angular-Bundle größer. Erst wenn das vollständig übertragen ist, kann die Seite gerendert werden.
+
+## Skizze
+
+![images/skizze.png](images/skizze.png)

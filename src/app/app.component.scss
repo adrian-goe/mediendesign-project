@@ -17,9 +17,18 @@
         width: 100%;
         background-color: $yellow;
         height: 5rem;
-        display: grid;
-        place-items: center;
+        /*display: grid;
+        place-items: center;*/
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
         color: $white;
         font-weight: 300;
+
+        a {
+            text-decoration: underline;
+            color: $white;
+        }
     }
 }
